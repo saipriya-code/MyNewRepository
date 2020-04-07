@@ -1,8 +1,5 @@
 package first.maven.first.maven;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +15,7 @@ public class RegisterPatientMMP {
 		driver = new ChromeDriver();
 		driver.get(url);
 	}
-	
+	//changed code
 	@Test
 	public void registerPatient() {
 		launchBrowser("http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php");
